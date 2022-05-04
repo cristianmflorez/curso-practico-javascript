@@ -7,9 +7,79 @@
     <title>Figuras geométricas | curso básico de JS</title>
 </head>
 <body>
-    <h1>
-        Figuras geométricas
-    </h1>
+    <header>
+        <h1>
+            <p>
+                Primer taller de curso practico JS
+            </p>
+        </h1>
+
+
+    </header>
+
+    <section>
+        <h2>
+            Calcula el area y perimetro de un cuadrado
+        </h2>
+
+        <form>
+            <label for="inputCuadrado">
+                Escribe cuanto mide cada lado del cuadrado
+            </label>
+
+            <input id="inputCuadrado" type="number" />
+
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular perimetro cuadrado
+            </button>
+
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área cuadrado
+            </button>
+        </form>
+
+    </section>
+
+    <section>
+        <h2>
+            Calcula el area y perimetro de un Triangulo
+        </h2>
+
+        <form>
+            <label for="inputLado1">
+                Escribe cuanto mide el lado 1
+            </label>
+
+            <input id="inputLado1" type="number" />
+
+            <label for="inputLado2">
+                Escribe cuanto mide el lado 2
+            </label>
+
+            <input id="inputLado2" type="number" />
+
+            <label for="inputBase">
+                Escribe cuanto mide la base
+            </label>
+
+            <input id="inputBase" type="number" />
+
+            <label for="inputAltura">
+                Escribe cuanto mide la altura
+            </label>
+
+            <input id="inputAltura" type="number" />
+
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular perimetro triagulo
+            </button>
+
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular el área triagulo
+            </button>
+        </form>
+
+    </section>
 
     <script src="./figuras.js"></script>
 </body>
